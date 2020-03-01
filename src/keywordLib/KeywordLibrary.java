@@ -78,9 +78,9 @@ public class KeywordLibrary {
 		else if(arg1.equals("xpath")) {
 			driver.findElement(By.xpath(arg2)).click();
 		}
-		else if(arg1.equals("linkText")) {
+		/*else if(arg1.equals("linkText")) {
 			driver.findElement(By.linkText(arg2)).click();
-		}
+		} */
 
 	}
 	
